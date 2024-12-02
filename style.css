@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #B1CCE2;
+}
+
+header {
+    background: linear-gradient(90deg);
+}
+
+.products .card {
+    transition: transform 0.2s;
+}
+
+.products .card:hover {
+    transform: scale(1.05);
+}
+.price{
+    color: #A08BC7;
+}
+h5{
+    color: #D453A0;
+}
+#brand{
+    color: #D453A0;
+    font-weight: bold;
+}
+label{
+    color: #A08BC7;
+    font-weight: bold;
+}

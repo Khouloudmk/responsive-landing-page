@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALA CLUTCH</title>
+    <link rel="icon" href="logo1.jpg">
+    <!-- intégration bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- intégration css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<header>
+<!-- navbar section -->
+    <nav id="mynavbar" class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" id="brand" href="#">CALA CLUTCH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarmenu">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+</header>
+<main>
+<!-- home section -->
+ <section id="Home">
+    <div class="py-5">
+        <img src="bg-img.webp" alt="" width="100%">
+    </div>
+</section>
+ <!-- product section -->
+<section id="Products">
+    <div class="text-center">
+        <h2 class="text-4xl font-bold text-white">Why Shop With Us</h2>
+        <p class="mt-4">We offer the best products at the best prices</p>
+      </div>
+    <div class="container">
+      <div class="row text-center py-5">
+      <div class="col-md-3 col-sm-6 my-3 my-md-0">
+        <form action="index.php" method="post">
+            <div class="card shadow">
+                <div>
+                    <img src="BlackCatNails.webp" class="img-fluid card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Black Cat Nails</h5>
+                    <p class="card-text">
+                        Feline fine nails they stay you slay.
+                    </p>
+                    <h5>
+                        <span class="price">11.99$</span>
+                    </h5>
+                    <button class="btn btn-outline-dark my-2 my-sm-0 text-black" type="submit" name="add">Shop now</button>
+                </div>
+            </div>
+        </form>
+      </div>
+      <div class="col-md-3 col-sm-6 my-3 my-md-0">
+      <form action="index.php" method="post">
+            <div class="card shadow">
+                <div>
+                    <img src="faux cils1.jpg" class="img-fluid card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Mink Lashes</h5>
+                    <p class="card-text">
+                        Premium lashes weightless volume and curl.
+                    </p>
+                    <h5>
+                        <span class="price">10.99$</span>
+                    </h5>
+                    <button class="btn btn-outline-dark my-2 my-sm-0 text-black" type="submit" name="add">Shop now</button>
+                </div>
+            </div>
+        </form>
+      </div>
+      <div class="col-md-3 col-sm-6 my-3 my-md-0">
+      <form action="index.php" method="post">
+            <div class="card shadow">
+                <div>
+                    <img src="BlueOmbreNails.webp" class="img-fluid card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Blue Ombre Nails</h5>
+                    <p class="card-text">
+                        Cold hearted nails they stay you slay.
+                    </p>
+                    <h5>
+                        <span class="price">11.99$</span>
+                    </h5>
+                    <button class="btn btn-outline-dark my-2 my-sm-0 text-black" type="submit" name="add">Shop now</button>
+                </div>
+            </div>
+        </form>
+      </div>
+      <div class="col-md-3 col-sm-6 my-3 my-md-0">
+      <form action="index.php" method="post">
+            <div class="card shadow">
+                <div>
+                    <img src="faux cils2.jpg" class="img-fluid card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Volt Lashes</h5>
+                    <p class="card-text">
+                        Premium lashes volume curl and full of glam.
+                    </p>
+                    <h5>
+                        <span class="price">10.99$</span>
+                    </h5>
+                    <button class="btn btn-outline-dark my-2 my-sm-0 text-black" type="submit" name="add">Shop now</button>
+                </div>
+            </div>
+        </form>
+      </div>
+      </div>
+    </div>
+</section>
+<!-- contact section -->
+ <section id="contact" class="py-20 bg-gray-200">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-white">Get in Touch</h2>
+        <p class="text-gray-600 mt-4">We'd love to hear from you</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-dark">submit</button>
+          </form>
+        </div>
+    </div>
+  </section>
+</main>
+<!-- footer section -->
+<footer class=" text-center py-4">
+    <div class="container">
+      <p class="mb-0"><span class="text-white">&copy;</span> <span id="brand"> CALA CLUTCH </span> All rights reserved.</p>
+    </div>
+    </footer>  
+<!-- intégration bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
